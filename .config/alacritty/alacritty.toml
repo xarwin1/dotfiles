@@ -7,7 +7,7 @@ general.import = [
 ]
 
 [font]
-size = 16.0
+size = 14.0
 builtin_box_drawing = true
 
 [font.normal]
@@ -33,3 +33,6 @@ y = 1
 [font.glyph_offset]
 x = 0
 y = 0
+
+[terminal.shell]
+program = "/usr/bin/nu"

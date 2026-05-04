@@ -19,10 +19,10 @@ cmp.build():wait(60000)
 cmp.setup({
     signature = { enabled = true },
     completion = {
-        documentation = { auto_show = true, auto_show_delay_ms = 500 },
+        documentation = { auto_show = true, auto_show_delay_ms = 300 },
         menu = {
             auto_show = true,
-            auto_show_delay_ms = 500,
+            auto_show_delay_ms = 300,
 
         },
     },
@@ -34,6 +34,7 @@ vim.keymap.set('n', '<leader>ff', builtin.find_files, { desc = 'Telescope find f
 vim.keymap.set('n', '<leader>fg', builtin.live_grep, { desc = 'Telescope live grep' })
 vim.keymap.set('n', '<leader>fb', builtin.buffers, { desc = 'Telescope buffers' })
 vim.keymap.set('n', '<leader>fh', builtin.help_tags, { desc = 'Telescope help tags' })
+vim.keymap.set('n', '<leader>gd', builtin.lsp_definitions, { desc = 'Telescope help tags' })
 
 require('everforest').setup({
     background = 'hard'

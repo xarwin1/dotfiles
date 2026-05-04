@@ -21,9 +21,3 @@ vim.diagnostic.config({
   update_in_insert = false,
   severity_sort = true,
 })
-
-vim.opt.guicursor = {
-  "n-v-c:block-blinkon200-blinkoff150",          -- Normal, Visual, Command: block
-  "i-ci:ver25-blinkon200-blinkoff150", -- Insert: vertical line (25% width), blinking
-  "r-cr:hor20",           -- Replace: horizontal line
-}

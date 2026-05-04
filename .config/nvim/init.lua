@@ -1,4 +1,9 @@
-require('config.options')
-require('config.lazy')
-require('config.autocmds')
-require('config.keymaps')
+require('options')
+require('keymaps')
+require('plugins')
+require('autocommands')
+
+
+vim.lsp.enable('lua_ls')
+vim.lsp.enable('clangd')
+vim.lsp.enable('pyright')

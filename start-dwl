@@ -1,0 +1,3 @@
+#!/bin/sh
+
+slstatus -s | dwl -s "sh -c 'swaybg -i /home/boreknawk/Pictures/wallpaper.png &'"

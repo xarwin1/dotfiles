@@ -1,0 +1,322 @@
+curl -sS https://starship.rs/install.sh | sh
+exit
+cd dotfiles/
+fastfetch 
+mkdir .config/fastfetch
+nvim .config/fastfetch/config.jsonc
+fastfetch 
+nvim .config/fastfetch/config.jsonc
+cp Downloads/kindpng_5634840.png .config/fastfetch/
+mv .config/fastfetch/kindpng_5634840.png .config/fastfetch/cheems.png
+fastfetch 
+sudo pacman -S chafa timg<\n>
+sudo pacman -S chafa lsix<\n>
+fastfetch 
+nvim .config/fastfetch/config.jsonc
+fastfetch 
+chafa .config/fastfetch/cheems.png
+nvim .config/fastfetch/config.jsonc
+fastfetch 
+nvim .config/fastfetch/config.jsonc
+fastfetch 
+nvim .config/fastfetch/config.jsonc
+fastfetch 
+nvim .config/fastfetch/config.jsonc
+fastfetch 
+nvim .config/fastfetch/config.jsonc
+fastfetch 
+nvim .config/fastfetch/config.jsonc
+sudo pacman -S alacritty
+fastfetch 
+sudo pacman -Rns alacritty
+sudo pacman -S kitty
+fastfetch 
+kitty
+nvim .config/fastfetch/config.jsonc
+fastfetch 
+kitten themes
+fastfetch 
+nvim .config/fastfetch/config.jsonc
+fastfetch 
+fastfetch 
+nvim .config/fastfetch/config.jsonc
+kitten themes
+nvxm
+nvim
+nvim
+nvim .config/kitty/kitty.conf
+fastfetch 
+sudo pacman -S foot
+cd .config/dwl
+nvim config.h
+cp config.h config.def.h
+rm -rf .git
+ls -a
+ls
+cd ..
+cd dwl/
+ls -a
+rm -rf .git*
+ls -a
+rm -rf LICENSE*
+ls -a
+rm -rf CHANGELOG.md
+rm -rf README.md
+git pull
+ls -a
+ls -la
+cd ..
+ls -a
+cd ..
+cd dotfiles/
+cd dwl/
+ls -a
+rm -rf .git*
+ls -a
+cd ..
+ls -a
+cd slstatus/
+rm -rf .git*
+cd
+ls -a
+cd dotfiles/.config/dwl/
+ls -a
+ls patches/
+patch -R < patches/bar.patch
+git reset
+git status
+ekit
+exit
+cd dotfiles/
+ls
+rm -rf dwl
+rm -rf slstatus
+cd .config/
+ls -a
+rm -rf dwl dwm
+ls -a
+rm -rf dmenu
+ls -a
+cd
+yay -S mangowm-git
+mkdir -p .config/mango
+mkdir .config/mango
+cp /etc/mango/config.conf .config/mango/config.conf
+mango
+nvim .config/mango/config.conf
+mango
+exit
+ls -a
+git clone https://codeberg.org/dwl/dwl
+cd dwl/
+ls -a
+rm -rf git*
+ls -a
+rm -rf .git*
+make
+<\n>sudo pacman -S base-devel meson \<\n>    wayland wayland-protocols cairo pango
+<\n>sudo pacman -S base-devel meson wayland wayland-protocols cairo pango
+mkdir patches
+cd
+git clone https://git.sr.ht/~raphi/somebar
+cd somebar/
+ls -a
+cp src/config.def.hpp src/config.hpp
+meson setup build
+ninja -C build
+sudo ninja -C build install
+somebar
+dwl -s somebar
+ls 
+patch -I < contrib/ipc.patch
+patch -I  contrib/ipc.patch
+patch -  contrib/ipc.patch
+patch contrib/ipc.patch
+patch -p1 < contrib/ipc.patch
+patch -i contrib/ipc.patch
+nvim meson.build.rej
+cd
+cd dwl
+patch -i patches/wayland-ipc.patch
+cat patches/wayland-ipc.patch
+rm patches/wayland-ipc.patch
+cat patches/wayland-ipc.patch
+rm patches/wayland-ipc.patch
+nvim patches/wayland-ipc.patch
+patch -i patches/wayland-ipc.patch
+nvim Makefile.rej
+nvim dwl.c.rej
+fg
+job unfreeze
+patch -R patches/wayland-ipc.patch
+patch -r patches/wayland-ipc.patch
+cd ..
+sudo pacman -S xmonad xmonad-contrib
+sudo pacman -S xorg-server
+exit
+sudo pacman -S xorg
+exit
+sudo pacman -S dmenu
+pkill xmonad
+mkdir .xmonad
+vm Downloads/xmonad.hs .xmonad/xmonad.hs
+mv Downloads/xmonad.hs .xmonad/xmonad.hs
+vim .xmonad/xmonad.hs
+n!!
+nvim .xmonad/xmonad.hs
+pkill xmonad
+mv .xmonad .config/xmonad
+ls -a
+cd .config/xmonad/
+ls -a
+mv .xmonad ..
+ls -a
+cd ..
+ls
+rm xmonad/
+mv .xmonad xmonad
+ls -a
+xmonad --restart
+pkill xmonad
+xmonad --replace
+sudo pacman -S qtile
+exit
+fastfetch 
+sudo pacman -Rns mango
+sudo pacman -Rns mangowm-git xmonad xmonad-contrib
+nvim .config/qtile/config.py
+nvim .config/qtile/autostart.sh
+nvim .config/qtile/config.py
+setxkbmap -variant dvorak
+chmod +x .config/qtile/autostart.sh
+./.config/qtile/autostart.sh
+sudo pacman -S nitrogen
+sudo pacman -S feh
+exit
+nvim .config/qtile/autostart.sh
+./.config/qtile/autostart.sh
+nvim .config/qtile/config.py
+pkill qtile
+nvim .config/qtile/config.py
+pkill qtile
+nvim .config/qtile/config.py
+cd .config/qtile/
+python  config.py
+nvim config.py
+nvim autostart.sh
+pkill qtile
+cd .config/qtile/
+nvim autostart.sh
+./.config/qtile/autostart.sh
+./autostart.sh
+pkill qtile
+cd .config/qtile/
+./autostart.sh
+nvim config.py
+python  config.py
+cd .config/qtile/
+nvim config.py
+sudo pacman -S picom
+picom &
+picom 
+sudo pacman -Rns picom
+yay -S picom-ftlabs-git
+picom
+picom --animations -b
+picom --help
+cd
+mkdir .config/picom
+cp /etc/xdg/picom.conf.example .config/picom/picom.conf
+sudo pacman -S xrandr
+sudo pacman -S xorg-xrandr
+xrandr
+xrandr --output HDMI-1 --mode 1920x1080 --rate 75
+nvim .config/picom/picom.conf
+cd .config/qtile/
+nvim autostart.sh
+sudo pacman -S btop
+picom -b
+pkill picom
+nvim .config/picom/picom.conf
+picom-trans -c 80
+pkill picom
+pkill picom
+xset
+xset r rate 250 35
+xset r rate 200 35
+nvim .config/qtile/config.py
+nvim .config/qtile/autostart.sh
+fastfetch 
+nvim .config/qtile/config.py
+fast
+fastfetch 
+sudo pacman -S qutebrowser
+poweroff
+nvim .config/qtile/config.py
+nvim .config/qtile/autostart.sh
+sudo pacman -S pyright
+nvim .config/qtile/config.py
+sudo pacman -S psutil
+sudo pacman  -S python-psutil
+nvim .config/qtile/config.py
+sudo pacman -Qu
+pacman -Qu
+sudo pacman -yu
+sudo pacman -Syu
+sudo pacman -S xev
+sudo pacman -S xorg-xev
+xev
+wpctl set-volume @DEFAULT_AUDIO_SINK@ VOL%+5
+wpctl set-volume @DEFAULT_AUDIO_SINK@ %+5
+wpctl set-volume @DEFAULT_AUDIO_SINK@ VOL+5
+wpctl set-volume @DEFAULT_AUDIO_SINK@ VOL+
+wpctl set-volume @DEFAULT_AUDIO_SINK@ VOL+2
+wpctl set-volume @DEFAULT_AUDIO_SINK@ VOL-2
+wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+
+wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+ -l 1.0
+wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%- -l 1.0
+wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+ -l 1.0
+xev
+wpctl set-mute @DEFAULT_AUDIO_SINK@
+wpctl set-mute @DEFAULT_AUDIO_SINK@ 1
+wpctl set-mute @DEFAULT_AUDIO_SINK@ 0
+wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle
+sudo pacman -S pamixer
+pamixer -i 1
+pamixer -d 1
+pamixer -d 5
+pamixer -d 1
+nvim .config/qtile/config.py
+sudo pacman -S ttf-hack-nerd
+fc-list 
+fc-list | grep 'Hack'
+uname -r
+uname -R
+uname
+uname --help
+uname a
+uname -a
+uname
+du
+du Projects/
+du -sh Projects/
+lsblk
+sh -c uname -r
+bash -c uname -r
+bash -c uname -a
+sh -c "uname -r"
+sh -c 'uname -r'
+pkill kitty
+fastfetch 
+hellyeah
+fastfetch 
+nvim .config/picom/picom.conf
+pkill picom
+nvim .
+pkill kitty
+nvim .config/qtile/config.py
+zsh
+exit
+ch -s /usr/bin/zsh
+zsh
+chsh -s /usr/bin/zsh

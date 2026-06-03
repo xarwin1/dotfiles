@@ -10,6 +10,7 @@ vim.pack.add({
     "https://github.com/saghen/blink.cmp",
     "https://github.com/silentium-theme/silentium.nvim",
     "https://github.com/neanias/everforest-nvim",
+    "https://github.com/folke/tokyonight.nvim",
     "https://github.com/goolord/alpha-nvim",
 
 })
@@ -38,7 +39,7 @@ vim.keymap.set('n', '<leader>fh', builtin.help_tags, { desc = 'Telescope help ta
 require('everforest').setup({
     background = 'hard'
 })
-vim.cmd("colorscheme everforest")
+vim.cmd("colorscheme tokyonight")
 require('lualine').setup({
   options = { theme = 'auto' }
 })
